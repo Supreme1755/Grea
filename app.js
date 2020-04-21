@@ -1,8 +1,8 @@
 $ = jQuery;
 var resistencia = $("#resistencia")[0].innerText
-var resrac = $("#resrac")[1].innerText
-var resexo = $("#resexo")[0].innerText
-var total = resistencia + resrac + resexo
+//var resrac = $("#resrac")[1].innerText
+//var resexo = $("#resexo")[0].innerText
+//var total = resistencia + resrac + resexo
 var maxHealth = 10*resistencia,
   curHealth = maxHealth;
 $('.total').html(maxHealth + "/" + maxHealth);
