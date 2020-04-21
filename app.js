@@ -3,7 +3,7 @@ var resistencia = $("#resistencia")[0].innerText
 var resrac = $("#resrac")[1].innerText
 var resexo = $("#resexo")[1].innerText
 var total = resistencia + resrac + resexo
-var maxHealth = 10*total,
+var maxHealth = 10*resrac,
   curHealth = maxHealth;
 $('.total').html(maxHealth + "/" + maxHealth);
 $(".health-bar-text").html("100%");
