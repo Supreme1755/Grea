@@ -47,3 +47,5 @@ Sabado x Domingo: 3:33
 REPTILIANO BABA, SOLTO, RECOMPENSA
 
 1500 XP
+
+Chakra: recupera 30% do dano recebido, 3 turnos Cooldown ... d18 pra ativar (1000 exp)

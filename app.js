@@ -1,9 +1,8 @@
 $ = jQuery;
-var resistencia = $("#resistencia")[0].innerText
-//var resrac = $("#resrac")[1].innerText
-//var resexo = $("#resexo")[0].innerText
-//var total = resistencia + resrac + resexo
-var maxHealth = 10*resistencia,
+var resistencia = $("#resistencia")[0].innerText, 
+resrac = $("#resrac")[0].innerText,
+resexo = $("#resexo")[0].innerText;
+var maxHealth = 10*(parseInt(resistencia)+parseInt(resrac)+parseInt(resexo)),
   curHealth = maxHealth;
 $('.total').html(maxHealth + "/" + maxHealth);
 $(".health-bar-text").html("100%");
